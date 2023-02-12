@@ -13,10 +13,10 @@ export default function Home() {
 
 
       <main >
-        <div className=' bg-black h-screen px-[100px] text-white' >         
-          <nav className='h-fit w-full pt-[80px] ' >
-            <Image src={''} alt=' ' className='' />
-            <div>
+        <div className='relative bg-black h-screen px-16 text-white' >         
+          <nav className='absolute top-0 left-0 flex justify-between px-16 h-fit w-full pt-8 ' >
+            <div className=' flex gap-4' >
+              <Image src={''} alt='' className='' />
               <div className='group'>
                 <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Why Us &darr;</button>
                 <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
@@ -30,75 +30,146 @@ export default function Home() {
                 <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
               </div> 
             </div>
-            <button className='px-6 py-4 rounded-xl bg-white text-black' >Sign in</button>
+            <button className='px-6 py-3 rounded-xl bg-white text-black' >Sign in</button>
           </nav> 
 
-          <div className='flex ' >
-            <div>
-              <p>We are your product engine, from Strategic Insights to Tactical Execution</p>
-              <h2 className='text-[58px] ' >Being up-to-date is common; the competitive advantage is being up-to-tomorrow.</h2>
-              <button className='px-6 py-4 w-[563px]' >Get Started</button>
+          <div className='flex h-full' >
+            <div className='my-auto h-fit' >
+              <div className='w-2/3' >
+                <p>We are your product engine, from Strategic Insights to Tactical Execution</p>
+                <h2 className='text-6xl ' >Being up-to-date is common; the competitive advantage is being up-to-tomorrow.</h2>
+                <button className='px-6 py-4 w-[563px]' >Get Started</button>
+              </div>
+              <Image src={''} alt='' className='w-1/3' />
             </div>
-            <Image src={''} alt='' className='h-[485px] w-[433px]' />
           </div>
       
-          <h2 className='text-center' >We work with</h2>
+          <h2 className='absolute bottom-6 left-0 w-full text-center' >We work with</h2>
 
         </div>
+          
+        <div className=' p-16 bg-[#B0C4CD] '  >
+        </div>
 
-        <div className='px-[100px] bg-black text-[#bebebe] ' >
-          <div className=' h-[277px] bg-[#B0C4CD] '  >
-
-          </div>
-          <p className='View more' ></p>
-          <h3>We’re a startup studio providing:</h3>
-          <div className='flex flex-col' >
-            <div className='flex gap-4' >
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
+        <div className='flex flex-col relative px-16 bg-black text-[#bebebe] pt-4 ' >
+          <p className='text-center text-xs ' >View more</p>
+          <h3 className='text-center text-3xl mt-14' >We’re a startup studio providing:</h3>
+          <div className='flex justify-center mt-14' >
+            <div className='flex w-fit gap-10 ' >
+              <div className='flex flex-col gap-4 text-sm' >
+                <div>
+                  <div className='w-20 h-20 rounded-xl bg-slate-50 ' ></div>
+                  <h4>Minimum Viable Product (MVP)</h4>
+                </div>
+                <div>
+                  <div className='w-20 h-20 rounded-xl bg-slate-50 ' ></div>
+                  <h4>Proof of Concept (POC)</h4>
+                </div>
+                <div>
+                  <div className='w-20 h-20 rounded-xl bg-slate-50 ' ></div>
+                  <h4>Case Studies</h4>
+                </div>
               </div>
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
-              </div>
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
-              </div>
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
-              </div>
-            </div>
-            <div className='flex gap-4' >
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
-              </div>
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
-              </div>
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
-              </div>
-              <div>
-                <div className='w-[102px] h-[102px] rounded-xl ' ></div>
-                <h4>jkdsahekskjfj</h4>
+              <div className='flex flex-col gap-4' >
+                <div>
+                  <div className='w-20 h-20 rounded-xl bg-slate-50 ' ></div>
+                  <h4>Prototype</h4>
+                </div>
+                <div>
+                  <div className='w-20 h-20 rounded-xl bg-slate-50 ' ></div>
+                  <h4>Pilot Project</h4>
+                </div>
+                <div>
+                  <div className='w-20 h-20 rounded-xl bg-slate-50 ' ></div>
+                  <h4>Feasibility Studies</h4>
+                </div>
               </div>
             </div>
           </div>
-          <div className='flex'>
-            <Image src={''} alt='' width={'100%'} height={'100%'} className='h-[370px] h-[529px]'/>
-            <div>
-              <p>Against all odds: thoughts and observations from a permanent state of starting up. 
+          <div className='flex gap-10 mt-20 '>
+            <Image src={''} alt='' width={'100%'} height={'100%'} className='w-2/5'/>
+            <div className='w-3/5 text-xl' >
+              <p >Against all odds: thoughts and observations from a permanent state of starting up. 
                 We build your startup product from zero to one. We bring the tech and product expertise early-stage founders need.
                  We are your technical product team. We help get your startup from an idea into the market and beyond.
                   We typically work with pre-seed and seed-funded businesses alongside founders.</p>
             </div>
           </div>
+          <div className='flex mt-20 mx-auto gap-4 text-center flex-wrap' >
+            <div className='w-fit h-fit'>
+              <div className='relative flex px-4 pb-2 w-80 h-60 rounded-xl border-[1px] border-white ' >
+                <div className='h-fit w-fit my-auto'>
+                  <p>As partners, we work together throughout the process, leveraging the best of both organizations when ideating and validating ideas.</p>
+                </div>
+                <div className='absolute bottom-0 left-0 bg-white w-full rounded-b-lg p-2 '></div>
+              </div>
+              <h3 className='text-center' >Co-Create together</h3>
+            </div>
+            <div className='w-fit h-fit'>
+              <div className='relative flex px-4 pb-2 w-80 h-60 rounded-xl border-[1px] border-white ' >
+                <div className='h-fit w-fit my-auto'>
+                  <p>As partners, we work together throughout the process, leveraging the best of both organizations when ideating and validating ideas.</p>
+                </div>
+                <div className='absolute bottom-0 left-0 bg-white w-full rounded-b-lg p-2 '></div>
+              </div>
+              <h3 className='text-center' >Co-Create together</h3>
+            </div>
+            <div className='w-fit h-fit'>
+              <div className='relative flex px-4 pb-2 w-80 h-60 rounded-xl border-[1px] border-white ' >
+                <div className='h-fit w-fit my-auto'>
+                  <p>As partners, we work together throughout the process, leveraging the best of both organizations when ideating and validating ideas.</p>
+                </div>
+                <div className='absolute bottom-0 left-0 bg-white w-full rounded-b-lg p-2 '></div>
+              </div>
+              <h3 className='text-center' >Co-Create together</h3>
+            </div>
+            <div className='w-fit h-fit'>
+              <div className='relative flex px-4 pb-2 w-80 h-60 rounded-xl border-[1px] border-white ' >
+                <div className='h-fit w-fit my-auto'>
+                  <p>As partners, we work together throughout the process, leveraging the best of both organizations when ideating and validating ideas.</p>
+                </div>
+                <div className='absolute bottom-0 left-0 bg-white w-full rounded-b-lg p-2 '></div>
+              </div>
+              <h3 className='text-center' >Co-Create together</h3>
+            </div>
+            <div className='w-fit h-fit'>
+              <div className='relative flex px-4 pb-2 w-80 h-60 rounded-xl border-[1px] border-white ' >
+                <div className='h-fit w-fit my-auto'>
+                  <p>As partners, we work together throughout the process, leveraging the best of both organizations when ideating and validating ideas.</p>
+                </div>
+                <div className='absolute bottom-0 left-0 bg-white w-full rounded-b-lg p-2 '></div>
+              </div>
+              <h3 className='text-center' >Co-Create together</h3>
+            </div>
+            <div className='w-fit h-fit'>
+              <div className='relative flex px-4 pb-2 w-80 h-60 rounded-xl border-[1px] border-white ' >
+                <div className='h-fit w-fit my-auto'>
+                  <p>As partners, we work together throughout the process, leveraging the best of both organizations when ideating and validating ideas.</p>
+                </div>
+                <div className='absolute bottom-0 left-0 bg-white w-full rounded-b-lg p-2 '></div>
+              </div>
+              <h3 className='text-center' >Co-Create together</h3>
+            </div>
+          </div>
+          <div className='flex gap-10 mt-20 '>
+            <div className='w-3/5 text-xl' >
+              <p >Against all odds: thoughts and observations from a permanent state of starting up. 
+                We build your startup product from zero to one. We bring the tech and product expertise early-stage founders need.
+                 We are your technical product team. We help get your startup from an idea into the market and beyond.
+                  We typically work with pre-seed and seed-funded businesses alongside founders.</p>
+            </div>
+            <Image src={''} alt='' width={'100%'} height={'100%'} className='w-2/5'/>
+          </div>
+          <div className='flex' >
+            <div className='flex-1' >
+              <h2>Other Features</h2>
+            </div>
+            <div className='flex-1'>
+
+            </div>
+          </div>
+
+
         </div>
 
 
