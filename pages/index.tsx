@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+// #04
 
 export default function Home() {
   return (
@@ -13,13 +13,48 @@ export default function Home() {
 
 
       <main >
-        <div className='relative bg-black h-screen px-16 text-white' >         
+        <div className='relative bg-black h-screen px-16 text-white' > 
           <nav className='absolute top-0 left-0 flex justify-between px-16 h-fit w-full pt-8 ' >
+            <div className='flex gap-4' >
+              <h2 className='text-2xl mr-12 mt-1 '>AgiLean</h2>
+              <div className='group'>
+                <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Why Us &darr;</button>
+                <div className='absolute space-y-3 -m-2 bg-[#B0C4CD] p-4 w-60 text-black text-xs rounded-xl hidden group-hover:block'>
+                  <p>How we help?</p>
+                  <p>Why prefer us?</p>
+                  <p>What we ensure?</p>
+                </div>
+              </div>
+              <div className='group'>
+                <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Services and Solutions &darr;</button>
+                <div className='absolute space-y-3 -m-2 bg-[#B0C4CD] p-4 w-60 text-black text-xs rounded-xl hidden group-hover:block'>
+                  <p>Internet of Behaviors</p>
+                  <p>Total Experience</p>
+                  <p>Privacy Enhancing Computation</p>
+                  <p>Anywhere Operations</p>
+                  <p>Cybersecurity Mesh</p>
+                  <p>Inteligent Composable Business</p>
+                  <p>Ai Engineering</p>
+                  <p>Hyper Automation</p>
+                </div>
+              </div>
+              <div className='group'>
+                <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Programs and Offerings &darr;</button>
+                <div className='absolute space-y-3 -m-2 bg-[#B0C4CD] p-4 w-60 text-black text-xs rounded-xl hidden group-hover:block'>
+                  <p>99-day MVP</p>
+                  <p>Strategic Portfolio Diversification</p>
+                </div>
+              </div>
+            </div>
+            <button className='px-6 py-3 rounded-xl bg-white text-black' >Sign in</button>
+          </nav>
+
+          {/* <nav className='absolute top-0 left-0 flex justify-between px-16 h-fit w-full pt-8 ' >
             <div className=' flex gap-4' >
               <h2 className='text-2xl mr-12 mt-1 '>AgiLean</h2>
               <div className='group'>
                 <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Why Us &darr;</button>
-                <div className='absolute p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+                <div className='absolute transition-all bg-[#B0C4CD] py-6 w-44 rounded-xl duration-500 delay-300 hidden group-hover:flex '>           
               </div> 
               <div className='group'>
                 <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Services and Solutions &darr;</button>
@@ -31,7 +66,7 @@ export default function Home() {
               </div> 
             </div>
             <button className='px-6 py-3 rounded-xl bg-white text-black' >Sign in</button>
-          </nav> 
+          </nav>  */}
 
           <div className='flex h-full' >
             <div className='my-auto h-fit' >
