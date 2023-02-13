@@ -87,7 +87,7 @@ export default function Home() {
             </div>
           </div>
           <div className='flex gap-10 mt-20 '>
-            <Image src={''} alt='' width={'100%'} height={'100%'} className='w-2/5'/>
+            <Image src={''} alt='' width={100} height={100} className='w-2/5'/>
             <div className='w-3/5 text-3xl' >
               <p >Against all odds: thoughts and observations from a permanent state of starting up. 
                 We build your startup product from zero to one. We bring the tech and product expertise early-stage founders need.
@@ -158,7 +158,7 @@ export default function Home() {
                  We are your technical product team. We help get your startup from an idea into the market and beyond.
                   We typically work with pre-seed and seed-funded businesses alongside founders.</p>
             </div>
-            <Image src={''} alt='' width={'100%'} height={'100%'} className='w-2/5'/>
+            <Image src={''} alt='' width={100} height={100} className='w-2/5'/>
           </div>
           <div className='flex mt-20 pb-20 ' >
             <div className='flex-1' >
